@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { TicketsFilter } from "./tickets-filter";
+
 import {
   Table,
   TableBody,
@@ -23,8 +23,6 @@ export function Tickets() {
         <h1 className="text-3xl font-bold tracking-tight">Lista de Multas</h1>
 
         <div className="space-y-2.5">
-          <TicketsFilter />
-
           <div className="rounded-md border">
             <Table>
               <TableHeader>

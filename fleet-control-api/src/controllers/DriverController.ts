@@ -7,7 +7,7 @@ import {
   Put,
   Query,
 } from '@nestjs/common';
-import { AuthGuard } from '@nestjs/passport';
+
 import { DriverService } from 'src/services/DriverService';
 import { UserService } from 'src/services/UserService';
 import { z } from 'zod';
@@ -25,7 +25,7 @@ const registerDriverBodySchema = z.object({
 
 type registerBodySchemaParse = z.infer<typeof registerDriverBodySchema>;
 
-@Controller('driver')
+@Controller('/driver')
 export class DriverController {
   constructor(
     private driverService: DriverService,
@@ -88,17 +88,18 @@ export class DriverController {
     return driverService;
   }
 
-  @Put('/delete/')
+  @Put('/delete')
   async deleteDriver(@Query('id') id: string) {
     return this.driverService.deleteLogicDriver(id);
   }
 
   @Get('/all')
   async findAllDrivers(
-    @Query('page') page?: number,
+    @Query('page') page: number,
     @Query('name') name?: string,
     @Query('id') id?: string,
   ) {
-    return this.driverService.findAllDrivers(page, name, id);
+    console.log(page);
+    return this.driverService.findAllDrivers(Number(page), name, id);
   }
 }

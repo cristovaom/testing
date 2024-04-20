@@ -12,13 +12,13 @@ import {
 import { Archive, Search, SquarePen } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { DriversDetails } from "./drivers-details";
-import { DriversFilter } from "./drivers-filter";
 import { DeleteConfirmModal } from "@/components/delete-confirm-modal";
 import { DriversEdit } from "./drivers.-edit";
 import { useEffect, useState } from "react";
 import { fetchDriversAPI } from "@/api/fetch-drivers";
 import { format, formatDistanceToNowStrict } from "date-fns";
 import { ptBR } from "date-fns/locale";
+import { Pagination } from "@/components/pagination";
 
 interface DriverPropsAPI {
   id: string;
@@ -35,14 +35,15 @@ interface DriverPropsAPI {
 
 export function Drivers() {
   const [data, setData] = useState<DriverPropsAPI[]>([]);
+  const [atualizar, setAtualizar] = useState<boolean>(false);
 
   useEffect(() => {
     async function getDrivers() {
-      const data = await fetchDriversAPI({ page: 0 });
+      const data = await fetchDriversAPI(1);
       setData(data);
     }
     getDrivers();
-  }, []);
+  }, [atualizar]);
   return (
     <>
       <Helmet title="Motoristas" />
@@ -52,8 +53,6 @@ export function Drivers() {
         </h1>
 
         <div className="space-y-2.5">
-          <DriversFilter />
-
           <div className="rounded-md border">
             <Table>
               <TableHeader>
@@ -141,6 +140,9 @@ export function Drivers() {
                                 totalTickets={0}
                                 phone={driver.phone}
                                 email={driver.email!}
+                                fn_atualizarInfo={() => {
+                                  setAtualizar(!atualizar);
+                                }}
                               />
                             </DialogContent>
                           </Dialog>
@@ -172,14 +174,18 @@ export function Drivers() {
               </TableBody>
             </Table>
           </div>
-          {/* {result && (
-            <Pagination
-              onPageChange={handlePaginate}
-              pageIndex={result.meta.pageIndex}
-              totalCount={result.meta.totalCount}
-              perPage={result.meta.perPage}
-            />
-          )} */}
+
+          <Pagination
+            pageIndex={1}
+            totalCount={data.length}
+            perPage={5}
+            onPageChange={function (pageIndex: number): void | Promise<void> {
+              throw new Error("Function not implemented.");
+            }} // onPageChange={handlePaginate}
+            // pageIndex={result.meta.pageIndex}
+            // totalCount={result.meta.totalCount}
+            // perPage={result.meta.perPage}
+          />
         </div>
       </div>
     </>

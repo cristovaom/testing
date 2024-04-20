@@ -49,10 +49,11 @@ export class DriverPrismaRepository implements DriverRepository {
 
     return setDriverToFalse;
   }
-  async findAllDrivers(page?: number, name?: string, id?: string) {
+
+  async findAllDrivers(page: number, name?: string, id?: string) {
     const drivers = await this.prismaService.driver.findMany({
-      take: 20,
-      skip: page * 20 || 0,
+      take: 5,
+      skip: (page - 1) * 5,
       where: {
         isActive: true,
         name: name,

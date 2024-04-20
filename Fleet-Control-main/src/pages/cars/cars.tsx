@@ -12,7 +12,7 @@ import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Archive, Search, SquarePen } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { CarsFilter } from "./cars-filter";
+
 import { CarsDetails } from "./cars-details";
 import { DeleteConfirmModal } from "../../components/delete-confirm-modal";
 import { CarsEdit } from "./cars-edit";
@@ -25,8 +25,6 @@ export function Cars() {
         <h1 className="text-3xl font-bold tracking-tight">Lista de veículos</h1>
 
         <div className="space-y-2.5">
-          <CarsFilter />
-
           <div className="rounded-md border">
             <Table>
               <TableHeader>

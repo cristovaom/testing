@@ -1,3 +1,4 @@
+import { EditDriver } from "@/api/edit-drivers";
 import { Button } from "@/components/ui/button";
 import {
   DialogHeader,
@@ -11,6 +12,7 @@ import { Separator } from "@/components/ui/separator";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "sonner";
 
 import { z } from "zod";
 
@@ -24,6 +26,7 @@ interface DriversDetailsPropsAPI {
   phone?: string;
   created_at: Date;
   email?: string;
+  fn_atualizarInfo: () => void;
 }
 
 const DriverSchema = z.object({
@@ -46,7 +49,7 @@ export function DriversEdit({
   phone,
   cnh,
   email,
-  created_at,
+  fn_atualizarInfo,
 }: DriversDetailsPropsAPI) {
   const {
     register,
@@ -68,7 +71,15 @@ export function DriversEdit({
   }, []);
 
   async function handleRegisterDriver(data: DriverSchemaBody) {
-    console.log(data);
+    try {
+      const sucess = await EditDriver(data);
+      if (sucess) {
+        fn_atualizarInfo();
+        return toast.success("Motorista editado com sucesso!");
+      }
+    } catch (error) {
+      return toast.error("Não foi possivel editar o motorista!");
+    }
   }
   return (
     <>

@@ -34,7 +34,8 @@ export class DriverService {
     return driver;
   }
 
-  async findAllDrivers(page?: number, name?: string, id?: string) {
+  async findAllDrivers(page: number, name?: string, id?: string) {
+    console.log(page);
     const drivers = await this.driverRepository.findAllDrivers(page, name, id);
     if (!drivers) {
       throw new NotFoundException('Motoristas não encontrados!');

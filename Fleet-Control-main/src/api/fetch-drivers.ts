@@ -1,11 +1,12 @@
 import { api } from "@/lib/axios";
 
-interface DriverPropsAPI {
-    page ?: number;
-}
 
-export async function fetchDriversAPI({page} : DriverPropsAPI){
-    const response = await api.get(`/driver/all?page=${page}`)
+
+export async function fetchDriversAPI(page : number){
+    const response = await api.get(`/driver/all`,{
+        params: {page: page}
+    }
+    )
     console.log(response.data)
     return response.data;
 }

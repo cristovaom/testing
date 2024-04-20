@@ -11,7 +11,7 @@ import { Archive, Search, SquarePen } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { TripsFilter } from "./trips-filter";
+
 import { TripsDetails } from "./trips-details";
 import { DeleteConfirmModal } from "@/components/delete-confirm-modal";
 
@@ -22,8 +22,6 @@ export function Trips() {
       <div className="flex flex-col gap-4">
         <h1 className="text-3xl font-bold tracking-tight">Lista de corridas</h1>
         <div className="space-y-2.5">
-          <TripsFilter />
-
           <div className="rounded-md border">
             <Table>
               <TableHeader>
