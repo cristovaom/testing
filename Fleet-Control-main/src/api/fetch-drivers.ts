@@ -1,12 +1,8 @@
 import { api } from "@/lib/axios";
 
 
-
-export async function fetchDriversAPI(page : number){
-    const response = await api.get(`/driver/all`,{
-        params: {page: page}
-    }
-    )
-    console.log(response.data)
+export async function fetchDriversAPI() {
+    const response = await api.get(`/driver/all`);
+  
     return response.data;
-}
+  }

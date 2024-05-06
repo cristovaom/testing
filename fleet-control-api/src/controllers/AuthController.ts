@@ -47,7 +47,7 @@ export class AuthController {
   @Get('/login/callback')
   callback(@Req() req, @Res({ passthrough: true }) res) {
     const acessToken = this.authService.generateToken(req.user);
-    res.cookie('auth', acessToken, { httpOnly: true });
+    res.cookie('auth', acessToken, { httpOnly: false });
     return { url: 'http://localhost:5173/' };
   }
 }

@@ -24,11 +24,7 @@ export interface DriverSchemaEditRequest {
 export interface DriverRepository {
   createDriver(data: DriverSchemaRequest): Promise<DriverSchemaRequest | null>;
   findDriverByEmailIfExists(email: string): Promise<DriverSchemaRequest | null>;
-  findAllDrivers(
-    page?: number,
-    name?: string,
-    id?: string,
-  ): Promise<DriverSchemaRequest[] | null>;
+  findAllDrivers(): Promise<DriverSchemaRequest[] | null>;
   deleteLogicDriver(id: string): Promise<DriverSchemaRequest | null>;
   editDriver(
     data: DriverSchemaEditRequest,

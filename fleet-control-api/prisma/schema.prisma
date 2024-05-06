@@ -18,6 +18,7 @@ model User {
   created_at DateTime? @default(now())
   updated_at DateTime? @updatedAt
   driver     Driver?
+  Audit      Audit[]
 }
 
 model Driver {
@@ -91,4 +92,13 @@ model Ticket {
   vehicleId         String
   Driver            Driver?   @relation(fields: [driverId], references: [id])
   driverId          String?
+}
+
+model Audit {
+  id         String    @id @default(uuid())
+  created_at DateTime? @default(now())
+  updated_at DateTime? @updatedAt
+  User       User      @relation(fields: [userId], references: [id])
+  userId     String
+  action     String
 }

@@ -6,8 +6,10 @@ import {
   Post,
   Put,
   Query,
+  UseGuards,
   UsePipes,
 } from '@nestjs/common';
+import { AuthGuard } from '@nestjs/passport';
 import { ZodValidationPipe } from 'src/pipes/ZodValidation';
 import { VehicleService } from 'src/services/VehicleService';
 import { z } from 'zod';
@@ -62,6 +64,7 @@ export class VehicleController {
   constructor(private vehicleService: VehicleService) {}
 
   @Post('/create')
+  @UseGuards(AuthGuard('jwt'))
   @UsePipes(new ZodValidationPipe(vehicleSchema))
   async createVehicle(
     @Body() { brand, model, year, plate, renavamN, chassi }: VehicleSchemaData,
@@ -81,7 +84,8 @@ export class VehicleController {
     return vehicle;
   }
 
-  @Get('/list')
+  @Get('/all')
+  @UseGuards(AuthGuard('jwt'))
   async findAllVehicles(
     @Query('page') page?: number,
     @Query('plate') plate?: string,
@@ -92,6 +96,7 @@ export class VehicleController {
   }
 
   @HttpCode(204)
+  @UseGuards(AuthGuard('jwt'))
   @Put('/delete')
   async deleteLogicVehicle(@Query('id') id: string) {
     const vehicleService = await this.vehicleService.deleteLogicVehicle(id);
@@ -100,6 +105,7 @@ export class VehicleController {
   }
 
   @UsePipes(new ZodValidationPipe(vehicleSchema))
+  @UseGuards(AuthGuard('jwt'))
   @Put('/edit')
   async editVehicle(
     @Body()

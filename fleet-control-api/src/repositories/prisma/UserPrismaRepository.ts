@@ -20,12 +20,11 @@ export class UserPrismaRepository implements UserRepository {
     return user;
   }
   async findOneByEmail(email: string) {
-    const userWithEmailValidation = await this.prismaService.user.findUnique({
+    const userWithEmailValidation = await this.prismaService.user.findFirst({
       where: {
         email,
       },
     });
-
     if (!userWithEmailValidation) {
       throw new NotFoundException('Usuario não encontrado!');
     }

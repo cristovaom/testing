@@ -19,5 +19,3 @@ async function bootstrap() {
   app.use(cookieParser());
 }
 bootstrap();
-
-

@@ -50,16 +50,8 @@ export class DriverPrismaRepository implements DriverRepository {
     return setDriverToFalse;
   }
 
-  async findAllDrivers(page: number, name?: string, id?: string) {
-    const drivers = await this.prismaService.driver.findMany({
-      take: 5,
-      skip: (page - 1) * 5,
-      where: {
-        isActive: true,
-        name: name,
-        id: id,
-      },
-    });
+  async findAllDrivers() {
+    const drivers = await this.prismaService.driver.findMany({});
 
     if (drivers.length === 0) {
       throw new NotFoundException('Não foi possível encontrar motoristas!');

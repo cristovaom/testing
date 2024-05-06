@@ -6,8 +6,10 @@ import {
   Post,
   Put,
   Query,
+  Req,
+  UseGuards,
 } from '@nestjs/common';
-
+import { AuthGuard } from '@nestjs/passport';
 import { DriverService } from 'src/services/DriverService';
 import { UserService } from 'src/services/UserService';
 import { z } from 'zod';
@@ -33,6 +35,7 @@ export class DriverController {
   ) {}
 
   @Post('/register')
+  @UseGuards(AuthGuard('jwt'))
   async registerUser(
     @Body()
     {
@@ -67,6 +70,7 @@ export class DriverController {
   }
 
   @Put('/update')
+  @UseGuards(AuthGuard('jwt'))
   async updateDriver(
     @Body()
     { id, name, email, phone, cpf, cnh, birthdate }: registerBodySchemaParse,
@@ -84,22 +88,19 @@ export class DriverController {
     if (!driverService) {
       throw new BadRequestException('Falha ao atualizar !');
     }
-
     return driverService;
   }
 
   @Put('/delete')
+  @UseGuards(AuthGuard('jwt'))
   async deleteDriver(@Query('id') id: string) {
     return this.driverService.deleteLogicDriver(id);
   }
 
   @Get('/all')
-  async findAllDrivers(
-    @Query('page') page: number,
-    @Query('name') name?: string,
-    @Query('id') id?: string,
-  ) {
-    console.log(page);
-    return this.driverService.findAllDrivers(Number(page), name, id);
+  @UseGuards(AuthGuard('jwt'))
+  async findAllDrivers(@Req() req) {
+    console.log(req.user);
+    return this.driverService.findAllDrivers();
   }
 }

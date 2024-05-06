@@ -7,25 +7,23 @@ import { UserController } from './controllers/UserController';
 import { UserPrismaRepository } from './repositories/prisma/UserPrismaRepository';
 import { PrismaService } from './lib/prisma';
 import { PassportModule } from '@nestjs/passport';
-import { JwtModule } from '@nestjs/jwt';
 import 'dotenv/config';
 import { MailerModule } from '@nestjs-modules/mailer';
 import { DriverController } from './controllers/DriverController';
-
 import { DriverPrismaRepository } from './repositories/prisma/DriverPrismaRepository';
 import { DriverService } from './services/DriverService';
 import { VehicleService } from './services/VehicleService';
 import { VehiclePrismaRepository } from './repositories/prisma/VehiclePrismaRepository';
 import { VehicleController } from './controllers/VehicleController';
+import { JwtStrategy } from './auth/JwtStrategy';
+import { JwtModule } from '@nestjs/jwt';
 
 @Module({
   imports: [
     PassportModule,
     JwtModule.register({
-      secret: process.env.SECRET,
-      signOptions: {
-        expiresIn: '1d',
-      },
+      secret: 'asdflakweiorjkasdfjiOPFJASDIORJ209489FNASIDRJ28934RASFKL',
+      signOptions: { expiresIn: '1d' },
     }),
     MailerModule.forRoot({
       transport: {
@@ -57,6 +55,8 @@ import { VehicleController } from './controllers/VehicleController';
     DriverPrismaRepository,
     VehiclePrismaRepository,
     VehicleService,
+
+    JwtStrategy,
   ],
 })
 export class AppModule {}

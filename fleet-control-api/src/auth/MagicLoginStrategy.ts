@@ -13,17 +13,17 @@ export class MagicLoginStrategy extends PassportStrategy(Strategy) {
     private mailService: MailerService,
   ) {
     super({
-      secret: process.env.SECRET,
+      secret: 'asdflakweiorjkasdfjiOPFJASDIORJ209489FNASIDRJ28934RASFKL',
       jwtOptions: {
-        expiresIn: '5m',
+        expiresIn: '15m',
       },
       callbackUrl: 'http://localhost:8080/auth/login/callback',
       sendMagicLink: async (destination, href) => {
         await this.mailService.sendMail({
           to: destination,
           from: 'fleetcontrolspeed@gmail.com',
-          subject: 'Magic Link',
-          text: `Magic Link: ${href}`,
+          subject: 'Login mágico!',
+          text: `Link de acesso: ${href}  `,
         });
         this.logger.debug(`sending email to ${destination} with link ${href}`);
       },
