@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import {  MiddlewareConsumer, Module } from '@nestjs/common';
 import { UserService } from './services/UserService';
 import { AuthService } from './services/AuthService';
 import { AuthController } from './controllers/AuthController';
@@ -17,6 +17,8 @@ import { VehiclePrismaRepository } from './repositories/prisma/VehiclePrismaRepo
 import { VehicleController } from './controllers/VehicleController';
 import { JwtStrategy } from './auth/JwtStrategy';
 import { JwtModule } from '@nestjs/jwt';
+import LogsMiddleware from './logs/logs.middleware';
+import { StartupLogger } from './logs/startupLogger';
 
 @Module({
   imports: [
@@ -55,8 +57,12 @@ import { JwtModule } from '@nestjs/jwt';
     DriverPrismaRepository,
     VehiclePrismaRepository,
     VehicleService,
-
     JwtStrategy,
+    StartupLogger,
   ],
 })
-export class AppModule {}
+export class AppModule {
+  configure(consumer: MiddlewareConsumer) {
+    consumer.apply(LogsMiddleware).forRoutes('*');
+  }
+}

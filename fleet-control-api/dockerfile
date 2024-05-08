@@ -6,8 +6,8 @@ COPY . .
 RUN rm -rf node_modules
 RUN npm install
 RUN npx prisma generate
-RUN npm run dev
-# RUN npm run build
+# RUN npm run dev
+RUN npm run build
 
 CMD ["node", "dist/main.js"]
 EXPOSE 8080

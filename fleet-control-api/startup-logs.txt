@@ -1,0 +1,75 @@
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+Mapped {/auth/logout, POST} route
+MailerModule dependencies initialized
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/auth/login/callback, GET} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+PassportModule dependencies initialized
+JwtModule dependencies initialized
+Mapped {/driver/register, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/vehicles/delete, PUT} route
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+PassportModule dependencies initialized
+AppModule dependencies initialized
+MailerModule dependencies initialized
+Mapped {/auth/login, POST} route
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+MailerCoreModule dependencies initialized
+AuthController {/auth}:
+JwtModule dependencies initialized
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/vehicles/delete, PUT} route
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+MailerModule dependencies initialized
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/delete, PUT} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/auth/login, POST} route
+JwtModule dependencies initialized
+PassportModule dependencies initialized
+Nest application successfully started
