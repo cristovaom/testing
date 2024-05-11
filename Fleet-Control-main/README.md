@@ -12,7 +12,7 @@
 A falta de um sistema centralizado para gerenciar essas informações resulta em perdas financeiras, tempo desperdiçado e dificuldades operacionais para a distribuidora. <br/>
 </p>
 
-<p align="center">Funcionalidades Esperadas</p>
+<p align="center">Funcionalidades Esperadas 💻</p>
 
 <p>-Registro de Motoristas e Veículos:Permitir o cadastro e a atualização de informações dos motoristas e veículos da frota.
 -Monitoramento de Despesas:Possibilitar o registro e acompanhamento das despesas relacionadas a cada veículo, como combustível, manutenção e reparos.
