@@ -13,7 +13,7 @@ A falta de um sistema centralizado para gerenciar essas informações resulta em
 </p>
 
 <p align="center">
-  <a href="#-empresa">Parceria</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;>
+  <a href="#-empresa">Parceria 🤞</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;>
 </p>
 
 <br/>
