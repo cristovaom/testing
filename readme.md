@@ -22,13 +22,13 @@ A falta de um sistema centralizado para gerenciar essas informações resulta em
 
 
 <p align="center">
-  <a href="#-empresa">Parceria </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;>
+  <a href="#-empresa">Parceria</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="speedbox " src="./flee-control-api/img/speed.png" width="100%">
+  <img alt="speedbox " src=".Testing/img/speed.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias Utilizadas
