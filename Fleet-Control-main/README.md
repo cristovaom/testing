@@ -24,10 +24,10 @@ p align="center">
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Linguagem de Programação:** JavaScript 
-- **Framework:** React | Typescript
+- **Linguagem de Programação:** JavaScript | Typescript
+- **Framework:** React 
 - **Banco de Dados:** PostgreSQL
-- **Outras Informações:** Docker | AWS | Load Balancer | Jenkis | Node.js
+- **Outras Informações:** Docker | AWS |  StoryBook | Jenkis | Node.js
 
 ##💻 Desenvolvedores
 
