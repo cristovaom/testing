@@ -28,8 +28,8 @@ A falta de um sistema centralizado para gerenciar essas informações resulta em
 
 <br/>
 
-p align="center">
-  <img alt="speedbox " src="./img/speed.png" width="100%">
+<p align="center">
+  <img alt="speedbox " src="./img/speed.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias Utilizadas
@@ -45,4 +45,3 @@ Gabriele Steinmetz |
 Cristovão Martins |
 Ademar Ramalho | 
 Anderson Schardosin |
-
