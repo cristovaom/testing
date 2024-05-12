@@ -12,7 +12,7 @@
 A falta de um sistema centralizado para gerenciar essas informações resulta em perdas financeiras, tempo desperdiçado e dificuldades operacionais para a distribuidora. <br/>
 </p>
 
-<p align="center">💻Funcionalidades Esperadas</p>
+<p align="center">Funcionalidades Esperadas</p>
 
 <p> 
  Registro de Motoristas e Veículos:Permitir o cadastro e a atualização de informações dos motoristas e veículos da frota.<br>
@@ -34,10 +34,10 @@ p align="center">
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Linguagem de Programação:** JavaScript 
-- **Framework:** React | Typescript
+- **Linguagem de Programação:** JavaScript | Typescript
+- **Framework:** React 
 - **Banco de Dados:** PostgreSQL
-- **Outras Informações:** Docker | AWS | Load Balancer | Jenkis | Node.js
+- **Outras Informações:** Docker | AWS | StoryBook | Jenkis | Node.js
 
 ##💻 Desenvolvedores
 
