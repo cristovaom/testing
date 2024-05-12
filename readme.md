@@ -12,13 +12,13 @@
 A falta de um sistema centralizado para gerenciar essas informações resulta em perdas financeiras, tempo desperdiçado e dificuldades operacionais para a distribuidora. <br/>
 </p>
 
-<p align="center">Funcionalidade Esperada</p>
+<p align="center">💻Funcionalidades Esperadas</p>
 
-<p>- **Registro de Motoristas e Veículos:** Permitir o cadastro e a atualização de informações dos motoristas e veículos da frota.
-- **Monitoramento de Despesas:** Possibilitar o registro e acompanhamento das despesas relacionadas a cada veículo, como combustível, manutenção e reparos.
-- **Controle de Multas e Infrações:** Registrar as multas e infrações de trânsito associadas a cada motorista, possibilitando a identificação de padrões e ações corretivas.
-- **Rastreamento de Rotas:** Integrar um sistema de rastreamento para monitorar as rotas percorridas pelos veículos, garantindo maior controle e segurança..
-- **Relatórios Gerenciais:** Gerar relatórios detalhados sobre o desempenho da frota, gastos associados, histórico de infrações e outros indicadores importantes para a tomada de decisões.</p>
+<p>-Registro de Motoristas e Veículos:Permitir o cadastro e a atualização de informações dos motoristas e veículos da frota.
+-Monitoramento de Despesas:Possibilitar o registro e acompanhamento das despesas relacionadas a cada veículo, como combustível, manutenção e reparos.
+-Controle de Multas e Infrações:Registrar as multas e infrações de trânsito associadas a cada motorista, possibilitando a identificação de padrões e ações corretivas.
+-Rastreamento de Rotas:Integrar um sistema de rastreamento para monitorar as rotas percorridas pelos veículos, garantindo maior controle e segurança..
+-Relatórios Gerenciais: Gerar relatórios detalhados sobre o desempenho da frota, gastos associados, histórico de infrações e outros indicadores importantes para a tomada de decisões.</p>
 
 
 <p align="center">
@@ -27,8 +27,8 @@ A falta de um sistema centralizado para gerenciar essas informações resulta em
 
 <br/>
 
-<p align="center">
-  <img alt="speedbox " src="./flee-control-api/img/speed.png" width="100%">
+p align="center">
+  <img alt="speedbox " src="./img/speed.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias Utilizadas
@@ -44,4 +44,3 @@ Gabriele Steinmetz |
 Cristovão Martins |
 Ademar Ramalho | 
 Anderson Schardosin |
-
