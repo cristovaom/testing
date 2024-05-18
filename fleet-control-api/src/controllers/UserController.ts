@@ -21,7 +21,7 @@ export class UserController {
   constructor(private userService: UserService) {}
 
   @Post('/register')
-  @UseGuards(AuthGuard('jwt'))
+  // @UseGuards(AuthGuard('jwt'))
   async registerUser(@Body() { name, email }: registerBodySchemaParse) {
     const userService = await this.userService.createUser({ name, email });
 

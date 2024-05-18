@@ -24,33 +24,30 @@ brand: string;
 */
 const vehicleSchema = z.object({
   id: z.string().optional(),
-  brand: z
+  marca: z
     .string({
       required_error: 'Marca é obrigatória!',
     })
     .min(2, 'Marca não pode ter menos de 2 caracteres!'),
-  model: z
+  modelo: z
     .string({
       required_error: 'Modelo é obrigatório!',
     })
     .min(2, 'Modelo não pode ter menos de 2 caracteres!'),
-  year: z
-    .number({
-      required_error: 'Ano é obrigatório!',
-    })
-    .int()
-    .min(1990, 'Ano não pode ser menor que 1990!'),
-  plate: z
+  ano: z.string({
+    required_error: 'Ano é obrigatório!',
+  }),
+  placa: z
     .string({
       required_error: 'Placa é obrigatória!',
     })
     .min(7, 'Placa não pode ter menos de 7 caracteres!'),
-  renavamN: z
+  renavam: z
     .string({
       required_error: 'Renavam é obrigatório!',
     })
     .min(6, 'Renavam não pode ter menos de 6 caracteres!'),
-  chassi: z
+  chassis: z
     .string({
       required_error: 'Chassi é obrigatório!',
     })
@@ -66,23 +63,23 @@ export class VehicleController {
   @Post('/create')
   @UseGuards(AuthGuard('jwt'))
   @UsePipes(new ZodValidationPipe(vehicleSchema))
-  async createVehicle(
-    @Body() { brand, model, year, plate, renavamN, chassi }: VehicleSchemaData,
-  ) {
-    const vehicle = await this.vehicleService.createVehicle({
-      brand,
-      model,
-      year,
-      plate,
-      renavamN,
-      chassi,
-    });
+  // async createVehicle(
+  //   @Body() { brand, model, year, plate, renavamN, chassi }: VehicleSchemaData,
+  // ) {
+  //   const vehicle = await this.vehicleService.createVehicle({
+  //     brand,
+  //     model,
+  //     year,
+  //     plate,
+  //     renavamN,
+  //     chassi,
+  //   });
 
-    if (!vehicle) {
-      throw new Error('Não foi possível criar o veículo!');
-    }
-    return vehicle;
-  }
+  //   if (!vehicle) {
+  //     throw new Error('Não foi possível criar o veículo!');
+  //   }
+  //   return vehicle;
+  // }
 
   @Get('/all')
   @UseGuards(AuthGuard('jwt'))
@@ -104,24 +101,24 @@ export class VehicleController {
     return vehicleService;
   }
 
-  @UsePipes(new ZodValidationPipe(vehicleSchema))
-  @UseGuards(AuthGuard('jwt'))
-  @Put('/edit')
-  async editVehicle(
-    @Body()
-    { id, brand, model, year, plate, renavamN, chassi }: VehicleSchemaData,
-  ) {
-    console.log(id);
-    const edidtVehicle = await this.vehicleService.editVehicle({
-      id,
-      brand,
-      model,
-      year,
-      plate,
-      renavamN,
-      chassi,
-    });
+  // @UsePipes(new ZodValidationPipe(vehicleSchema))
+  // @UseGuards(AuthGuard('jwt'))
+  // @Put('/edit')
+  // async editVehicle(
+  //   @Body()
+  //   { id, marca, modelo, ano, placa, renavam, chassis }: VehicleSchemaData,
+  // ) {
+  //   console.log(id);
+  //   const edidtVehicle = await this.vehicleService.editVehicle({
+  //     id,
+  //     marca,
+  //     modelo,
+  //     ano,
+  //     placa,
+  //     renavam,
+  //     chassis,
+  //   });
 
-    return edidtVehicle;
-  }
+  //   return edidtVehicle;
+  // }
 }

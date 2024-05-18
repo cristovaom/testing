@@ -73,3 +73,573 @@ Mapped {/auth/login, POST} route
 JwtModule dependencies initialized
 PassportModule dependencies initialized
 Nest application successfully started
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+JwtModule dependencies initialized
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+MailerModule dependencies initialized
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/delete, PUT} route
+Mapped {/vehicles/edit, PUT} route
+PassportModule dependencies initialized
+Mapped {/driver/delete, PUT} route
+Mapped {/auth/login, POST} route
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+JwtModule dependencies initialized
+Mapped {/auth/logout, POST} route
+MailerModule dependencies initialized
+UserController {/user}:
+PassportModule dependencies initialized
+DriverController {/driver}:
+Mapped {/auth/login, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/driver/register, POST} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/vehicles/delete, PUT} route
+Mapped {/user/register, POST} route
+Mapped {/auth/login/callback, GET} route
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+JwtModule dependencies initialized
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/delete, PUT} route
+PassportModule dependencies initialized
+UserController {/user}:
+Mapped {/vehicles/edit, PUT} route
+MailerModule dependencies initialized
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 201 e a mensagem Created
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+PassportModule dependencies initialized
+MailerModule dependencies initialized
+JwtModule dependencies initialized
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/delete, PUT} route
+Mapped {/vehicles/edit, PUT} route
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+PassportModule dependencies initialized
+JwtModule dependencies initialized
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/auth/login/callback, GET} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+MailerModule dependencies initialized
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/auth/logout, POST} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/vehicles/all, GET} route
+Mapped {/driver/register, POST} route
+Mapped {/vehicles/delete, PUT} route
+Nest application successfully started
+[ERROR] 
+Invalid `this.prismaService.user.create()` invocation in
+/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/src/repositories/prisma/UserPrismaRepository.ts:14:48
+
+  11 export class UserPrismaRepository implements UserRepository {
+  12   constructor(private prismaService: PrismaService) {}
+  13   async createUser(data: Prisma.UserCreateInput) {
+→ 14     const user = await this.prismaService.user.create(
+Unique constraint failed on the fields: (`email`) - PrismaClientKnownRequestError: 
+Invalid `this.prismaService.user.create()` invocation in
+/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/src/repositories/prisma/UserPrismaRepository.ts:14:48
+
+  11 export class UserPrismaRepository implements UserRepository {
+  12   constructor(private prismaService: PrismaService) {}
+  13   async createUser(data: Prisma.UserCreateInput) {
+→ 14     const user = await this.prismaService.user.create(
+Unique constraint failed on the fields: (`email`)
+    at ai.handleRequestError (/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/node_modules/@prisma/client/runtime/library.js:126:6775)
+    at ai.handleAndLogRequestError (/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/node_modules/@prisma/client/runtime/library.js:126:6109)
+    at ai.request (/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/node_modules/@prisma/client/runtime/library.js:126:5817)
+    at l (/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/node_modules/@prisma/client/runtime/library.js:131:9709)
+    at UserPrismaRepository.createUser (/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/src/repositories/prisma/UserPrismaRepository.ts:14:18)
+    at UserService.createUser (/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/src/services/UserService.ts:19:18)
+    at UserController.registerUser (/Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/src/controllers/UserController.ts:26:25)
+    at /Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /Users/cristovaomartins/Documents/fleet-control-service/fleet-control-api/node_modules/@nestjs/core/router/router-proxy.js:9:17
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 500 e a mensagem Internal Server Error
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImZlcGFzb3k2ODlAbWZ5YXguY29tIiwiY29kZSI6Ijc4Mjg3IiwiaWF0IjoxNzE1Mzk5MTMxLCJleHAiOjE3MTU0MDAwMzF9.6afUFaqJX0uZO_fYCWt95co_G3F2_j_1LHgj66oe6uY obteve o statuscode: 302 e a mensagem Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+JwtModule dependencies initialized
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+PassportModule dependencies initialized
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/driver/delete, PUT} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/auth/login, POST} route
+MailerModule dependencies initialized
+Mapped {/vehicles/delete, PUT} route
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+JwtModule dependencies initialized
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+MailerModule dependencies initialized
+PassportModule dependencies initialized
+Mapped {/auth/login, POST} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/delete, PUT} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+DriverController {/driver}:
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+PassportModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+AppModule dependencies initialized
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+JwtModule dependencies initialized
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/all, GET} route
+Mapped {/vehicles/delete, PUT} route
+Mapped {/vehicles/edit, PUT} route
+Mapped {/user/register, POST} route
+Mapped {/driver/delete, PUT} route
+MailerModule dependencies initialized
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/logout obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImZlcGFzb3k2ODlAbWZ5YXguY29tIiwiY29kZSI6IjU5MTM3IiwiaWF0IjoxNzE1Mzk5MzYyLCJleHAiOjE3MTU0MDAyNjJ9.C1rGrtYJV6NaHDvyYUVKCzeml-SV_nhBDAda4CGmaTA obteve o statuscode: 302 e a mensagem Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehciles/create obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
+
+Starting Nest application...
+PassportModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+JwtModule dependencies initialized
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+MailerCoreModule dependencies initialized
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/delete, PUT} route
+MailerModule dependencies initialized
+Mapped {/auth/logout, POST} route
+DriverController {/driver}:
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+MailerModule dependencies initialized
+PassportModule dependencies initialized
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+DriverController {/driver}:
+Mapped {/vehicles/delete, PUT} route
+JwtModule dependencies initialized
+Mapped {/driver/register, POST} route
+Mapped {/vehicles/create, POST} route
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 201 e a mensagem Created
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImNyaXN0b3Zhb204ODU1QGdtYWlsLmNvbSIsImNvZGUiOiIzNDg1NSIsImlhdCI6MTcxNjA2OTk2NiwiZXhwIjoxNzE2MDcwODY2fQ.FkA8pCqfqIjFBzdPxu1siNDlHwXgNMcdc2LYT9d3c9M obteve o statuscode: 302 e a mensagem Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+Mapped {/auth/logout, POST} route
+Mapped {/auth/login/callback, GET} route
+MailerModule dependencies initialized
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+PassportModule dependencies initialized
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/delete, PUT} route
+VehicleController {/vehicles}:
+JwtModule dependencies initialized
+UserController {/user}:
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: / obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /favicon.ico obteve o statuscode: 404 e a mensagem Not Found
+
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+Mapped {/auth/login, POST} route
+PassportModule dependencies initialized
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/vehicles/delete, PUT} route
+Mapped {/auth/logout, POST} route
+JwtModule dependencies initialized
+MailerModule dependencies initialized
+Nest application successfully started
+Log escrito com sucesso: O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+
+Starting Nest application...
+MailerCoreModule dependencies initialized
+AppModule dependencies initialized
+AuthController {/auth}:
+JwtModule dependencies initialized
+MailerModule dependencies initialized
+Mapped {/auth/login/callback, GET} route
+UserController {/user}:
+Mapped {/user/register, POST} route
+DriverController {/driver}:
+Mapped {/driver/register, POST} route
+Mapped {/auth/login, POST} route
+Mapped {/driver/delete, PUT} route
+Mapped {/driver/all, GET} route
+Mapped {/auth/logout, POST} route
+PassportModule dependencies initialized
+VehicleController {/vehicles}:
+Mapped {/vehicles/create, POST} route
+Mapped {/driver/update, PUT} route
+Mapped {/vehicles/delete, PUT} route
+Nest application successfully started

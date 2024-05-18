@@ -3,10 +3,17 @@ import { AppModule } from './app.module';
 import * as cookieParser from 'cookie-parser';
 import * as dotenv from 'dotenv';
 import { StartupLogger } from './logs/startupLogger';
+import * as fs from 'fs';
+
+const httpsOptions = {
+  key: fs.readFileSync('./secrets/cert.key'),
+  cert: fs.readFileSync('./secrets/cert.crt'),
+};
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     logger: new StartupLogger(), // Use o StartupLogger como logger global
+    httpsOptions,
   });
 
   // const content = 'asdfasdf';
@@ -16,7 +23,7 @@ async function bootstrap() {
   dotenv.config();
 
   app.enableCors({
-    origin: '*',
+    origin: 'http://localhost:5173',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,

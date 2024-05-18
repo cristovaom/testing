@@ -1,0 +1,128 @@
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 201 e a mensagem Created
+O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImZlcGFzb3k2ODlAbWZ5YXguY29tIiwiY29kZSI6Ijc4Mjg3IiwiaWF0IjoxNzE1Mzk5MTMxLCJleHAiOjE3MTU0MDAwMzF9.6afUFaqJX0uZO_fYCWt95co_G3F2_j_1LHgj66oe6uY obteve o statuscode: 302 e a mensagem Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/logout obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImZlcGFzb3k2ODlAbWZ5YXguY29tIiwiY29kZSI6IjU5MTM3IiwiaWF0IjoxNzE1Mzk5MzYyLCJleHAiOjE3MTU0MDAyNjJ9.C1rGrtYJV6NaHDvyYUVKCzeml-SV_nhBDAda4CGmaTA obteve o statuscode: 302 e a mensagem Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehciles/create obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 201 e a mensagem Created
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImNyaXN0b3Zhb204ODU1QGdtYWlsLmNvbSIsImNvZGUiOiIzNDg1NSIsImlhdCI6MTcxNjA2OTk2NiwiZXhwIjoxNzE2MDcwODY2fQ.FkA8pCqfqIjFBzdPxu1siNDlHwXgNMcdc2LYT9d3c9M obteve o statuscode: 302 e a mensagem Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: / obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /favicon.ico obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
