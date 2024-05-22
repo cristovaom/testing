@@ -1,4 +1,12 @@
-import { Body, Controller, Get, UseGuards } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  Param,
+  Post,
+  Put,
+  UseGuards,
+} from '@nestjs/common';
 
 import { AuthGuard } from 'src/auth/AuthGuard';
 import { PrismaService } from './prismaservice';
@@ -7,22 +15,53 @@ import { PrismaService } from './prismaservice';
 export class MultaController {
   constructor(private prisma: PrismaService) {}
 
-  @Get('/create')
+  @Post('/create')
   // @UseGuards(AuthGuard)
   async createMulta(
     @Body()
     body: {
-      cpfMotorista: string;
-      PlacaVeiculo: string;
-      destino: string;
-      horarioSaida: Date;
-      horarioChegada: Date;
+      idCorrida: string;
+
+      tipoMulta: string;
+      valorMulta: string;
+      dataPagamento?: Date;
+      isPago: string;
     },
   ) {
     try {
-      console.log(body);
+      const multa = await this.prisma.multa.create({
+        data: {
+          idCorrida: body.idCorrida,
+          tipoMulta: body.tipoMulta,
+          valorMulta: body.valorMulta,
+
+          dataPagamento: body.dataPagamento
+            ? new Date(body.dataPagamento)
+            : null,
+          isPago: body.isPago,
+        },
+      });
+
+      return multa;
     } catch (err) {
       console.log(err);
     }
+  }
+  @Get('/get')
+  async getMultas() {
+    const multas = await this.prisma.multa.findMany();
+    if (multas.length === 0) return { message: 'Nenhuma multa encontrada' };
+    return multas;
+  }
+
+  @Put('/delete/:id')
+  async deleteMulta(@Param('id') id: string) {
+    const multa = await this.prisma.multa.delete({
+      where: {
+        id: id,
+      },
+    });
+
+    return multa;
   }
 }

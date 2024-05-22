@@ -23,12 +23,13 @@ model Corrida {
 }
 
 model Multa {
-  id            String   @id @default(uuid())
-  isActive      Boolean  @default(true)
-  idCorrida     String   @unique
+  id            String    @id @default(uuid())
+  isActive      Boolean   @default(true)
+  idCorrida     String    @unique
   tipoMulta     String
-  valorMulta    Float
-  dataPagamento DateTime
+  valorMulta    String
+  dataPagamento DateTime?
+  isPago        String?
 
   Corrida Corrida @relation(fields: [idCorrida], references: [id])
 }

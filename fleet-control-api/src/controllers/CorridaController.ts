@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Post, Put, Query } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, Put } from '@nestjs/common';
 import { PrismaService } from './prismaservice';
 
 @Controller('corridas')
@@ -43,7 +43,7 @@ export class CorridaController {
 
   @Put('/delete/:id')
   async deleteCorrida(@Param('id') id: string) {
-    console.log(id)
+    console.log(id);
     try {
       const corrida = await this.prisma.corrida.delete({
         where: {
