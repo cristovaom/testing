@@ -12,7 +12,9 @@ const httpsOptions = {
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
-    logger: new StartupLogger(), // Use o StartupLogger como logger global
+
+    // logger: new StartupLogger(), // Use o StartupLogger como logger global
+    logger: ['error', 'warn', 'log', 'debug', 'verbose'], // Use todos os logs
     httpsOptions,
   });
 
@@ -29,6 +31,7 @@ async function bootstrap() {
     credentials: true,
   });
   await app.listen(8080);
+  console.log(`Application is running on: ${await app.getUrl()}`);
   app.use(cookieParser());
 }
 bootstrap();

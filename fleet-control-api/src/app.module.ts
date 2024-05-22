@@ -1,24 +1,14 @@
-import {  MiddlewareConsumer, Module } from '@nestjs/common';
-import { UserService } from './services/UserService';
-import { AuthService } from './services/AuthService';
-import { AuthController } from './controllers/AuthController';
-import { MagicLoginStrategy } from './auth/MagicLoginStrategy';
-import { UserController } from './controllers/UserController';
-import { UserPrismaRepository } from './repositories/prisma/UserPrismaRepository';
-import { PrismaService } from './lib/prisma';
+import { MiddlewareConsumer, Module } from '@nestjs/common';
+// import { MagicLoginStrategy } from './auth/MagicLoginStrategy';
 import { PassportModule } from '@nestjs/passport';
 import 'dotenv/config';
 import { MailerModule } from '@nestjs-modules/mailer';
-import { DriverController } from './controllers/DriverController';
-import { DriverPrismaRepository } from './repositories/prisma/DriverPrismaRepository';
-import { DriverService } from './services/DriverService';
-import { VehicleService } from './services/VehicleService';
-import { VehiclePrismaRepository } from './repositories/prisma/VehiclePrismaRepository';
-import { VehicleController } from './controllers/VehicleController';
-import { JwtStrategy } from './auth/JwtStrategy';
 import { JwtModule } from '@nestjs/jwt';
 import LogsMiddleware from './logs/logs.middleware';
 import { StartupLogger } from './logs/startupLogger';
+import { MultaController } from './controllers/MultaController';
+import { PrismaService } from './controllers/prismaservice';
+import { CorridaController } from './controllers/CorridaController';
 
 @Module({
   imports: [
@@ -41,25 +31,8 @@ import { StartupLogger } from './logs/startupLogger';
       },
     }),
   ],
-  controllers: [
-    AuthController,
-    UserController,
-    DriverController,
-    VehicleController,
-  ],
-  providers: [
-    UserService,
-    AuthService,
-    MagicLoginStrategy,
-    UserPrismaRepository,
-    PrismaService,
-    DriverService,
-    DriverPrismaRepository,
-    VehiclePrismaRepository,
-    VehicleService,
-    JwtStrategy,
-    StartupLogger,
-  ],
+  controllers: [MultaController, CorridaController],
+  providers: [StartupLogger, PrismaService],
 })
 export class AppModule {
   configure(consumer: MiddlewareConsumer) {

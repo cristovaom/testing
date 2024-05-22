@@ -10,95 +10,25 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id         String    @id @default(uuid())
-  isActive   Boolean   @default(true)
-  email      String    @unique
-  name       String?
-  created_at DateTime? @default(now())
-  updated_at DateTime? @updatedAt
-  driver     Driver?
-  Audit      Audit[]
+model Corrida {
+  id             String   @id @default(uuid())
+  isActive       Boolean  @default(true)
+  cpfMotorista   String
+  PlacaVeiculo   String
+  destino        String
+  horarioSaida   DateTime
+  horarioChegada DateTime
+
+  Multa Multa?
 }
 
-model Driver {
-  id         String    @id @default(uuid())
-  isActive   Boolean   @default(true)
-  name       String
-  phone      String    @unique
-  cpf        String    @unique
-  cnh        String    @unique
-  email      String    @unique
-  birthdate  DateTime
-  created_at DateTime? @default(now())
-  updated_at DateTime? @updatedAt
-  User       User      @relation(fields: [userId], references: [id])
-  userId     String    @unique
+model Multa {
+  id            String   @id @default(uuid())
+  isActive      Boolean  @default(true)
+  idCorrida     String   @unique
+  tipoMulta     String
+  valorMulta    Float
+  dataPagamento DateTime
 
-  Trip    Trip[]
-  Tickets Ticket[]
-}
-
-// 1 Motorista -> 1 Usuario ---> Feito
-// 1 Veiculo -> N Multa ---> Feito
-// 1 Veiculo -> N Viagens  ---> Feito
-// 1 Viagem -> N Multas ---> Feito
-// N Multas -> 1 Motorista ---> Feito
-// 1 Motorista -> N Viagens ---> Feito
-
-model Vehicle {
-  id         String    @id @default(uuid())
-  isActive   Boolean   @default(true)
-  brand      String
-  model      String
-  year       Int
-  plate      String    @unique
-  renavamN   String    @unique
-  chassi     String    @unique
-  created_at DateTime? @default(now())
-  updated_at DateTime? @updatedAt
-  NTickets   Int?      @default(0)
-  Trip       Trip[]
-  Ticket     Ticket[]
-}
-
-model Trip {
-  id          String    @id @default(uuid())
-  isActive    Boolean   @default(true)
-  origin      String
-  destination String
-  created_at  DateTime? @default(now())
-  updated_at  DateTime? @updatedAt
-  Vehicle     Vehicle   @relation(fields: [vehicleId], references: [id])
-  vehicleId   String
-  Driver      Driver    @relation(fields: [driverId], references: [id])
-  driverId    String
-  Ticket      Ticket[]
-}
-
-model Ticket {
-  id                String    @id @default(uuid())
-  isActive          Boolean   @default(true)
-  isPaid            Boolean   @default(false)
-  created_at        DateTime? @default(now())
-  updated_at        DateTime? @updatedAt
-  Category          String
-  Value             Float
-  points            Int
-  TicketFileSrcPath String?
-  Trip              Trip      @relation(fields: [tripId], references: [id])
-  tripId            String
-  Vehicles          Vehicle   @relation(fields: [vehicleId], references: [id])
-  vehicleId         String
-  Driver            Driver?   @relation(fields: [driverId], references: [id])
-  driverId          String?
-}
-
-model Audit {
-  id         String    @id @default(uuid())
-  created_at DateTime? @default(now())
-  updated_at DateTime? @updatedAt
-  User       User      @relation(fields: [userId], references: [id])
-  userId     String
-  action     String
+  Corrida Corrida @relation(fields: [idCorrida], references: [id])
 }

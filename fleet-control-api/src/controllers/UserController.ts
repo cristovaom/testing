@@ -1,13 +1,6 @@
-import {
-  BadRequestException,
-  Body,
-  Controller,
-  Post,
-  UseGuards,
-} from '@nestjs/common';
-import { UserService } from 'src/services/UserService';
+import { BadRequestException, Body, Controller, Post } from '@nestjs/common';
+
 import { z } from 'zod';
-import { AuthGuard } from '@nestjs/passport';
 
 const registerBodySchema = z.object({
   name: z.string(),
@@ -18,7 +11,7 @@ type registerBodySchemaParse = z.infer<typeof registerBodySchema>;
 
 @Controller('user')
 export class UserController {
-  constructor(private userService: UserService) {}
+  constructor(private userService: any) {}
 
   @Post('/register')
   // @UseGuards(AuthGuard('jwt'))
