@@ -1,0 +1,21 @@
+version: '3'
+services:
+  fleet-control:
+    image: fleet-control
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - VITE_API_URL=https://54.207.142.190:8080
+    volumes:
+      - .:/app
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - fleet-control

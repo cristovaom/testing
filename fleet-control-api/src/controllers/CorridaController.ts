@@ -1,9 +1,13 @@
 import { Body, Controller, Get, Param, Post, Put } from '@nestjs/common';
 import { PrismaService } from './prismaservice';
+import { ElasticsearchService } from '@nestjs/elasticsearch';
 
 @Controller('corridas')
 export class CorridaController {
-  constructor(private prisma: PrismaService) {}
+  constructor(
+    private prisma: PrismaService,
+    private readonly elasticsearchService: ElasticsearchService,
+  ) {}
 
   @Post('/create')
   // @UseGuards(AuthGuard)
@@ -38,6 +42,17 @@ export class CorridaController {
     if (response.length === 0) {
       return { message: 'Nenhuma corrida encontrada!' };
     }
+    await this.elasticsearchService.create({
+      index: 'corridas',
+      id: response[0].id,
+      body: {
+        cpfMotorista: response[0].cpfMotorista,
+        PlacaVeiculo: response[0].PlacaVeiculo,
+        destino: response[0].destino,
+        horarioSaida: response[0].horarioSaida,
+        horarioChegada: response[0].horarioChegada,
+      },
+    });
     return response;
   }
 

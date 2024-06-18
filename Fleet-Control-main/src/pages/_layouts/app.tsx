@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Header } from "@/components/header/header";
 import { api } from "@/lib/axios";
 import { isAxiosError } from "axios";
@@ -7,10 +8,10 @@ import { Outlet, useNavigate } from "react-router-dom";
 
 export function AppLayout() {
   const navigate = useNavigate();
-  const [cookie, setCookie] = useCookies(["auth"]);
+  const [cookie, _setCookie] = useCookies(["auth"]);
 
   useEffect(() => {
-    const token = cookie.auth.access_token;
+    const token = cookie?.auth?.access_token || "";
     if (token) {
       api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
     }

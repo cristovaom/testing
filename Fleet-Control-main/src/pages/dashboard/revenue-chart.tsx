@@ -16,12 +16,12 @@ import {
 } from "recharts";
 import colors from "tailwindcss/colors";
 const data = [
-  { date: "12/2023", revenue: 3 },
+  { date: "12/2023", revenue: 13 },
   { date: "11/2023", revenue: 5 },
   { date: "10/2023", revenue: 2 },
   { date: "09/2023", revenue: 1 },
   { date: "08/2023", revenue: 7 },
-  { date: "07/2302", revenue: 4 },
+  { date: "08/2023", revenue: 4 },
   { date: "06/2023", revenue: 2 },
   { date: "05/2023", revenue: 7 },
 ];

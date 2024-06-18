@@ -1,51 +1,62 @@
+import { GetCorridas } from "@/api/fetc-Corridas";
 import { Button } from "@/components/ui/button";
 import { DialogHeader } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
+import { Corrida } from "../trips/trips";
+import { CreateMulta } from "@/api/create-multa";
 
 const ticketsSchema = z.object({
-  categoria: z.string({
-    required_error: "Categoria é obrigatório!",
-    invalid_type_error: "Categoria inválido!",
-  }),
-  valor: z
+  tipoMulta: z
+    .string({
+      required_error: "Tipo da multa é obrigatório!",
+      invalid_type_error: "Tipo da multa inválido!",
+    })
+    .optional(),
+
+  valorMulta: z
     .string({
       required_error: "valor é obrigatório!",
       invalid_type_error: "valor inválido!",
     })
     .min(1, "valor inválido!"),
-  pontos: z
-    .number({
-      required_error: "pontos é obrigatório!",
-      invalid_type_error: "pontos inválido!",
-    })
-    .min(1, "pontos inválido!"),
-  anexo_multa: z.any(),
-  corrida_id: z.string(),
-  motorista_id: z.string(),
+  dataPagamento: z.string().optional(),
+  idCorrida: z.any().optional(),
+  isPago: z.string({
+    required_error: "isPago é obrigatório!",
+    invalid_type_error: "isPago inválido!",
+  }),
 });
 
 type TicketsSchemaBody = z.infer<typeof ticketsSchema>;
 
 export function TicketsRegsiter() {
-  const { register, handleSubmit } = useForm<TicketsSchemaBody>({
+  const [corridas, setCorridas] = useState<Corrida[]>([]);
+  const {
+    register,
+    handleSubmit,
+
+    formState: { errors },
+  } = useForm<TicketsSchemaBody>({
     resolver: zodResolver(ticketsSchema),
   });
 
-  function handleSubmitForm(data: TicketsSchemaBody) {
-    console.log(data);
+  useEffect(() => {
+    async function getCorridas() {
+      const corridas = await GetCorridas();
+      setCorridas(corridas);
+    }
+    getCorridas();
+  }, []);
+
+  async function handleSubmitForm(data: TicketsSchemaBody) {
+    const response = await CreateMulta(data as never);
+    console.log(response);
   }
   return (
     <>
@@ -59,77 +70,117 @@ export function TicketsRegsiter() {
         <section className="flex flex-col gap-6">
           <div className="flex items-center gap-6">
             <Label htmlFor="categoria" className="w-20">
-              *Categoria
+              *Tipo de Multa
             </Label>
-            <Select>
+            {/* <Select {...register("tipoMulta")}>
               <SelectTrigger className="flex-1">
-                <SelectValue placeholder="Categoria" />
+                <SelectValue />
               </SelectTrigger>
-              <SelectContent {...register("categoria")} className="w-40">
-                <SelectGroup className="w-40">
-                  <SelectItem value="velocidade">Velocidade</SelectItem>
-                  <SelectItem value="celular">Celular</SelectItem>
-                  <SelectItem value="furou preferencial">
-                    Furou preferencial
-                  </SelectItem>
-                  <SelectItem value="furou farol vermelho">
-                    Furou farol vermelho
-                  </SelectItem>
+              <SelectContent>
+                <SelectItem value="velocidade">Velocidade</SelectItem>
+                <SelectItem value="celular">Celular</SelectItem>
+                <SelectItem value="furou preferencial">
+                  Furou preferencial
+                </SelectItem>
+                <SelectItem value="furou farol vermelho">
+                  Furou farol vermelho
+                </SelectItem>
+              </SelectContent>
+            </Select> */}
+            <select
+              {...register("tipoMulta")}
+              className="w-full bg-gray-100 h-10"
+            >
+              <option value="velocidade">Velocidade</option>
+              <option value="celular">Celular</option>
+              <option value="furou preferencial">Furou preferencial</option>
+              <option value="furou farol vermelho">Furou farol vermelho</option>
+            </select>
+            {errors.tipoMulta && (
+              <span className="text-red-500">{errors.tipoMulta.message}</span>
+            )}
+          </div>
+
+          <div className="flex items-center gap-6">
+            <Label htmlFor="categoria w-24">*Corrida ID</Label>
+            {/* <Select {...register("idCorrida")}>
+              <SelectTrigger className="flex-1">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  {corridas.map((item) => (
+                    <SelectItem value={item.id!}>{item.id}</SelectItem>
+                  ))}
                 </SelectGroup>
               </SelectContent>
-            </Select>
-          </div>
-
-          <div className="flex items-center gap-6">
-            <Label htmlFor="categoria" className="w-21">
-              *Anexo da Multa
-            </Label>
-            <Input type="file" />
-          </div>
-
-          <div className="flex items-center gap-6">
-            <Label htmlFor="categoria" className="w-28">
-              *Corrida ID
-            </Label>
-            <Input />
+            </Select> */}
+            <select
+              {...register("idCorrida")}
+              className="w-full bg-gray-100 h-10"
+            >
+              {corridas.map((item) => (
+                <option value={item.id!}>{item.id}</option>
+              ))}
+            </select>
           </div>
 
           <div className="flex items-center gap-6">
             <Label htmlFor="categoria" className="w-20">
-              *Motorista
+              *valorMulta
             </Label>
-            <Select>
-              <SelectTrigger className="flex-1">
-                <SelectValue placeholder="motorista" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectGroup>
-                  <SelectItem value="banana">Maycon</SelectItem>
-                  <SelectItem value="blueberry">Joao</SelectItem>
-                  <SelectItem value="grapes">Jose</SelectItem>
-                  <SelectItem value="pineapple">Pedro</SelectItem>
-                </SelectGroup>
-              </SelectContent>
-            </Select>
+            <Input
+              type="text"
+              placeholder="valorMulta"
+              {...register("valorMulta")}
+            />
+            {
+              <div>
+                {errors.valorMulta && (
+                  <span className="text-red-500">
+                    {errors.valorMulta.message}
+                  </span>
+                )}
+              </div>
+            }
           </div>
 
           <div className="flex items-center gap-6">
             <Label htmlFor="categoria" className="w-20">
-              *Carro
+              *Data de pagamento
             </Label>
-            <Select>
+            <Input
+              type="date"
+              placeholder="Data de pagamento"
+              {...register("dataPagamento")}
+            />
+          </div>
+
+          <div className="flex items-center gap-6">
+            <Label htmlFor="categoria" className="w-20">
+              *Pago
+            </Label>
+            {/* <Select {...register("isPago")}>
               <SelectTrigger className="flex-1">
-                <SelectValue placeholder="Carro" />
+                <SelectValue placeholder="Pago ou não pago" />
               </SelectTrigger>
-              <SelectContent>
-                <SelectGroup>
-                  <SelectItem value="banana">Dodge RAM</SelectItem>
-                  <SelectItem value="blueberry">Fiesta</SelectItem>
-                  <SelectItem value="grapes">Kangoo</SelectItem>
-                  <SelectItem value="pineapple">Strada</SelectItem>
-                </SelectGroup>
+              <SelectContent className="w-40">
+                <SelectItem value="true">Pago</SelectItem>
+                <SelectItem value="false">Não pago</SelectItem>
               </SelectContent>
-            </Select>
+            </Select> */}
+            <select {...register("isPago")} className="w-full bg-gray-100 h-10">
+              <option value="true">Pago</option>
+              <option value="false">Não pago</option>
+            </select>
+
+            {
+              <div>
+                {errors.isPago && (
+                  <span className="text-red-500">{errors.isPago.message}</span>
+                )}
+              </div>
+            }
           </div>
         </section>
         <Separator className="mt-4" />

@@ -9,6 +9,7 @@ import { StartupLogger } from './logs/startupLogger';
 import { MultaController } from './controllers/MultaController';
 import { PrismaService } from './controllers/prismaservice';
 import { CorridaController } from './controllers/CorridaController';
+import { ElasticsearchModule } from '@nestjs/elasticsearch';
 
 @Module({
   imports: [
@@ -16,6 +17,9 @@ import { CorridaController } from './controllers/CorridaController';
     JwtModule.register({
       secret: 'asdflakweiorjkasdfjiOPFJASDIORJ209489FNASIDRJ28934RASFKL',
       signOptions: { expiresIn: '1d' },
+    }),
+    ElasticsearchModule.register({
+      node: 'http://15.229.240.148:9200',
     }),
     MailerModule.forRoot({
       transport: {

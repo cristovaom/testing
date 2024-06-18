@@ -1,14 +1,7 @@
 import { ThemeToggle } from "../theme/theme-toogle";
 
 import { ProfileHeader } from "./profile";
-import {
-  Building2,
-  CarFront,
-  Files,
-  Home,
-  Milestone,
-  PersonStandingIcon,
-} from "lucide-react";
+import { Building2, Files, Home, Milestone } from "lucide-react";
 import { NavLink } from "../navlink";
 import { Separator } from "../ui/separator";
 
@@ -24,16 +17,6 @@ export function Header() {
           <NavLink to="/">
             <Home className="h-4 w-4" />
             Início
-          </NavLink>
-
-          <NavLink to="/motoristas">
-            <PersonStandingIcon className="w-4 h-4" />
-            Motoristas
-          </NavLink>
-
-          <NavLink to="/carros">
-            <CarFront className="w-4 h-4" />
-            Veículos
           </NavLink>
 
           <NavLink to="/corridas">

@@ -9,7 +9,8 @@ import { toast } from "sonner";
 import { handleSignIn } from "@/api/sign-in";
 
 const signInSchema = z.object({
-  email: z.string().email("Formato de e-mail inválido!"),
+  username: z.string().min(2, "Usuario inválido!"),
+  password: z.string().min(2, "Senha inválida!"),
 });
 
 type signInschemaBody = z.infer<typeof signInSchema>;
@@ -26,14 +27,20 @@ export function SignIn() {
   async function handleSubmitLogin(data: signInschemaBody) {
     try {
       const requestAPI = await handleSignIn({
-        destination: data.email,
+        username: data.username,
+        password: data.password,
       });
 
       if (requestAPI) {
         toast.success("Enviamos um link de login para o seu e-mail!");
+      } else if (requestAPI === 401) {
+        toast.error("Usuario ou senha inválidos!");
+      } else {
+        toast.error("Falha ao tentar logar!");
       }
     } catch (error) {
-      toast.error("E-mail não encontrado!");
+      console.log(error);
+      toast.error("Falha ao tentar logar!");
     }
   }
   return (
@@ -51,18 +58,38 @@ export function SignIn() {
 
           <form action="space-y-4" onSubmit={handleSubmit(handleSubmitLogin)}>
             <div className="space-y-2">
-              <Label htmlFor="email">seu e-mail</Label>
+              <Label htmlFor="username">Usuario</Label>
               <Input
                 id="email"
                 type="text"
-                {...register("email")}
-                placeholder="Email"
+                {...register("username")}
+                placeholder="Usuario"
               />
             </div>
 
-            {errors.email && (
+            {errors.username && (
               <div className="flex">
-                <span className=" text-rose-500">{errors.email.message}</span>
+                <span className=" text-rose-500">
+                  {errors.username.message}
+                </span>
+              </div>
+            )}
+
+            <div className="space-y-2">
+              <Label htmlFor="email">Sua senha</Label>
+              <Input
+                id="email"
+                type="password"
+                {...register("password")}
+                placeholder="Senha"
+              />
+            </div>
+
+            {errors.password && (
+              <div className="flex">
+                <span className=" text-rose-500">
+                  {errors.password.message}
+                </span>
               </div>
             )}
 
