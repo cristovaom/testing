@@ -1,315 +1,276 @@
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImZlcGFzb3k2ODlAbWZ5YXguY29tIiwiY29kZSI6Ijc4Mjg3IiwiaWF0IjoxNzE1Mzk5MTMxLCJleHAiOjE3MTU0MDAwMzF9.6afUFaqJX0uZO_fYCWt95co_G3F2_j_1LHgj66oe6uY obteve o statuscode: 302 e a mensagem Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/logout obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImZlcGFzb3k2ODlAbWZ5YXguY29tIiwiY29kZSI6IjU5MTM3IiwiaWF0IjoxNzE1Mzk5MzYyLCJleHAiOjE3MTU0MDAyNjJ9.C1rGrtYJV6NaHDvyYUVKCzeml-SV_nhBDAda4CGmaTA obteve o statuscode: 302 e a mensagem Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehciles/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /user/register obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImNyaXN0b3Zhb204ODU1QGdtYWlsLmNvbSIsImNvZGUiOiIzNDg1NSIsImlhdCI6MTcxNjA2OTk2NiwiZXhwIjoxNzE2MDcwODY2fQ.FkA8pCqfqIjFBzdPxu1siNDlHwXgNMcdc2LYT9d3c9M obteve o statuscode: 302 e a mensagem Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /driver/register obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 304 e a mensagem Not Modified
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: / obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /favicon.ico obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/login obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /auth/login/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXN0aW5hdGlvbiI6ImNyaXN0b3Zhb204ODU1QGdtYWlsLmNvbSIsImNvZGUiOiI2MTkxMSIsImlhdCI6MTcxNjE2NjY4NCwiZXhwIjoxNzE2MTY3NTg0fQ.AsQXi341pwiY2C6cAlRT5cmZsImKDs2DlWac32ZOZqA obteve o statuscode: 302 e a mensagem Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 400 e a mensagem Bad Request
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /vehicles/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /trips obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /trips/register obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /trips/register obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /favicon.ico obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: POST, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 401 e a mensagem Unauthorized
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::ffff:127.0.0.1 com a url: /multa/create obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
+O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 401 e a mensagem Unauthorized
 O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/logout obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
@@ -317,591 +278,11 @@ O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obte
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /corridas/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/f3aead12-fa15-4673-aac0-2a2c1381302e obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/eed84f91-9777-48cd-8786-533783d851c4 obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/create/1f892e07-3b72-426b-8edf-d206e53e0b3c obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/1f892e07-3b72-426b-8edf-d206e53e0b3c obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/4148d98f-39ad-4093-967d-c6ed62080e42 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/7757980b-067f-47d4-b052-78a9497be696 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/31e5a488-42fc-469b-95dc-4fa3496faf82 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/908547e6-e2cf-4616-9652-38a49c744cc1 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/eed84f91-9777-48cd-8786-533783d851c4 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/908547e6-e2cf-4616-9652-38a49c744cc1 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/21e0189b-b20a-43ec-ab58-32ff420f8915 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/57d01d6b-df84-4ef5-8f6f-3c30b1b2ae50 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/21e0189b-b20a-43ec-ab58-32ff420f8915 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: DELETE, no ip: ::1 com a url: /corridas/delete/21e0189b-b20a-43ec-ab58-32ff420f8915 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/21e0189b-b20a-43ec-ab58-32ff420f8915 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/57d01d6b-df84-4ef5-8f6f-3c30b1b2ae50 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/eecf8fd4-92e7-4374-8a61-e0ab05fc286d obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/d9cfd7a3-7ba1-4c63-ba5d-242e087a3a92 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/f3aead12-fa15-4673-aac0-2a2c1381302e obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/f3aead12-fa15-4673-aac0-2a2c1381302e obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/f3aead12-fa15-4673-aac0-2a2c1381302e obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/f3aead12-fa15-4673-aac0-2a2c1381302e obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/4148d98f-39ad-4093-967d-c6ed62080e42 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/21e0189b-b20a-43ec-ab58-32ff420f8915 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/21e0189b-b20a-43ec-ab58-32ff420f8915 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/eecf8fd4-92e7-4374-8a61-e0ab05fc286d obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/57d01d6b-df84-4ef5-8f6f-3c30b1b2ae50 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/57d01d6b-df84-4ef5-8f6f-3c30b1b2ae50 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/d9cfd7a3-7ba1-4c63-ba5d-242e087a3a92 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/d9cfd7a3-7ba1-4c63-ba5d-242e087a3a92 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/34355758-069f-42ff-a836-97dcc4ce1096 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /corridas/delete/67e4dac2-568e-41e6-aba9-a065d0113b17 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /multa/create obteve o statuscode: 201 e a mensagem Created
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: PUT, no ip: ::1 com a url: /multa/delete/3fe299b4-f6d5-41ec-971a-665b8ac6b374 obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: POST, no ip: ::1 com a url: /auth/logout obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /driver/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /vehicles/all obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /multa/get obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /multa/get obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/create obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /multa/get obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /multa/get obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /multa/get obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /multa/get obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: OPTIONS, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 404 e a mensagem Not Found
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /multa/get obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
 O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 200 e a mensagem OK
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /get/corridas/getCorridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /favicon.ico obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCorridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /get/corridas/getCorridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /get/corridas/getCorridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCorridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCorridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCorridas obteve o statuscode: 404 e a mensagem Not Found
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error
-O Host: localhost, usando o método: GET, no ip: ::1 com a url: /corridas/getCrridas obteve o statuscode: 500 e a mensagem Internal Server Error

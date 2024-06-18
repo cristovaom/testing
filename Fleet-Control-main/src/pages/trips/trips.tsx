@@ -33,9 +33,15 @@ export function Trips() {
   const [refetch, setRefetch] = useState(false);
 
   useEffect(() => {
+    console.log("123")
     async function fetchData() {
       const response = await GetCorridas();
-      setCorridaData(response);
+      console.log(response);
+      if(response.message === 'Nenhuma corrida encontrada!') return setCorridaData([]);
+      else{
+        console.log(response)
+        setCorridaData(response);
+      }
     }
     fetchData();
   }, [refetch]);
@@ -84,7 +90,12 @@ export function Trips() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {corridaData.map((item) => (
+               {corridaData.length === 0 ? (
+                <div>
+                  <p>Nenhuma corrida encontrada!</p>
+                </div>
+               ): (
+                corridaData.map((item) => (
                   <TableRow key={item.id}>
                     <TableCell></TableCell>
                     <TableCell>{item.id}</TableCell>
@@ -126,7 +137,8 @@ export function Trips() {
                       </Button>
                     </TableCell>
                   </TableRow>
-                ))}
+                )))}
+              
               </TableBody>
             </Table>
           </div>

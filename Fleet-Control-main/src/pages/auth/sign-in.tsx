@@ -7,6 +7,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
 import { handleSignIn } from "@/api/sign-in";
+import { useNavigate } from "react-router-dom";
+import { useCookies } from "react-cookie";
 
 const signInSchema = z.object({
   username: z.string().min(2, "Usuario inválido!"),
@@ -16,6 +18,8 @@ const signInSchema = z.object({
 type signInschemaBody = z.infer<typeof signInSchema>;
 
 export function SignIn() {
+  const [cookie, _setCookie] = useCookies(["token"]);
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -32,7 +36,10 @@ export function SignIn() {
       });
 
       if (requestAPI) {
-        toast.success("Enviamos um link de login para o seu e-mail!");
+        toast.success("Logado com sucesso!");
+        if (cookie.token) {
+          navigate('/');
+      }
       } else if (requestAPI === 401) {
         toast.error("Usuario ou senha inválidos!");
       } else {

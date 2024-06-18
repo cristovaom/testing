@@ -8,12 +8,11 @@ import { Outlet, useNavigate } from "react-router-dom";
 
 export function AppLayout() {
   const navigate = useNavigate();
-  const [cookie, _setCookie] = useCookies(["auth"]);
+  const [cookie, _setCookie] = useCookies(["token"]);
 
   useEffect(() => {
-    const token = cookie?.auth?.access_token || "";
-    if (token) {
-      api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
+    if(!cookie.token){
+      navigate("/sign-in", { replace: false });
     }
   }, [cookie]);
 

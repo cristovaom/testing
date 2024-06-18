@@ -35,7 +35,11 @@ export function Tickets() {
   useEffect(() => {
     async function getMultas() {
       const multas = await FetchMultas();
-      setTickets(multas);
+      console.log(multas)
+      if(multas.message === 'Nenhuma multa encontrada!') return setTickets([]);
+      else{
+        setTickets(multas);
+      }
     }
     getMultas();
   }, [refetch]);
@@ -90,56 +94,61 @@ export function Tickets() {
                   result.orders.map((order) => {
                     return <OrderTableRow key={order.orderId} order={order} />;
                   })} */}
-                {tickets.map((ticket) => {
-                  return (
-                    <TableRow key={ticket.id}>
-                      {/* Tabela 1 */}
-                      <TableCell></TableCell>
-                      <TableCell>{ticket.id}</TableCell>
-                      <TableCell>{ticket.idCorrida}</TableCell>
-                      <TableCell>{ticket.tipoMulta}</TableCell>
-                      <TableCell>
-                        {ticket.dataPagamento && (
-                          <span>
-                            {format(
-                              new Date(ticket.dataPagamento),
-                              "dd/MM/yyyy: HH:mm:ss"
-                            )}
-                          </span>
-                        )}
-                      </TableCell>
-                      <TableCell>{ticket.valorMulta}</TableCell>
-
-                      <TableCell>
-                        <Button variant="ghost" size="xs">
-                          <ArrowRight className="mr-2 h-3 w-3" />
-                          Pagar
-                        </Button>
-                      </TableCell>
-
-                      <TableCell>
-                        {ticket.isPago === "true" ? (
-                          <Button variant="success">PAGA</Button>
-                        ) : (
-                          <Button variant="destructive">NÃO PAGA</Button>
-                        )}
-                      </TableCell>
-
-                      <TableCell>
-                        <Button
-                          variant="outline"
-                          onClick={() => {
-                            handleDelete(ticket.id!);
-                            setRefetch(!refetch);
-                          }}
-                        >
-                          <Trash className="h-3 w-3" />
-                          <span className="sr-only">Detalhes da corrida</span>
-                        </Button>
-                      </TableCell>
+                {tickets.length == 0 ? (
+                  tickets.map((ticket) => {
+                    return (
+                      <TableRow key={ticket.id}>
+                        {/* Tabela 1 */}
+                        <TableCell></TableCell>
+                        <TableCell>{ticket.id}</TableCell>
+                        <TableCell>{ticket.idCorrida}</TableCell>
+                        <TableCell>{ticket.tipoMulta}</TableCell>
+                        <TableCell>
+                          {ticket.dataPagamento && (
+                            <span>
+                              {format(
+                                new Date(ticket.dataPagamento),
+                                "dd/MM/yyyy: HH:mm:ss"
+                              )}
+                            </span>
+                          )}
+                        </TableCell>
+                        <TableCell>{ticket.valorMulta}</TableCell>
+  
+                        <TableCell>
+                          <Button variant="ghost" size="xs">
+                            <ArrowRight className="mr-2 h-3 w-3" />
+                            Pagar
+                          </Button>
+                        </TableCell>
+  
+                        <TableCell>
+                          {ticket.isPago === "true" ? (
+                            <Button variant="success">PAGA</Button>
+                          ) : (
+                            <Button variant="destructive">NÃO PAGA</Button>
+                          )}
+                        </TableCell>
+  
+                        <TableCell>
+                          <Button
+                            variant="outline"
+                            onClick={() => {
+                              handleDelete(ticket.id!);
+                              setRefetch(!refetch);
+                            }}
+                          >
+                            <Trash className="h-3 w-3" />
+                            <span className="sr-only">Detalhes da corrida</span>
+                          </Button>
+                        </TableCell>
+                      </TableRow>
+                    );
+                  })) : (
+                    <TableRow>
+                      <TableCell colSpan={8}>Nenhuma multa encontrada</TableCell>
                     </TableRow>
-                  );
-                })}
+                  )}
               </TableBody>
             </Table>
           </div>

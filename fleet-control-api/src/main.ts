@@ -1,9 +1,8 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import * as cookieParser from 'cookie-parser';
-import * as dotenv from 'dotenv';
 import * as fs from 'fs';
-import * as express from 'express';
+
 
 const httpsOptions = {
   key: fs.readFileSync('./secrets/cert.key'),
@@ -18,9 +17,9 @@ async function bootstrap() {
   });
 
   app.enableCors({
-    origin: '*',
+    origin: ['*', 'http://localhost:3000', 'https://localhost:3000'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
-    allowedHeaders: '*',
+    allowedHeaders: 'Content-Type, Accept, Authorization', 
     credentials: true,
   });
 
